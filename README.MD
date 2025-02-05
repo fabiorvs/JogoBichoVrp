@@ -44,18 +44,18 @@ Este é um recurso para servidores FiveM que implementa o clássico Jogo do Bich
 
 ## Screenshots
 
-![Print 1](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/1.png)
+![Print 1](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/1.png)
 
-![Print 2](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/2.png)
+![Print 2](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/2.png)
 
-![Print 3](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/3.png)
+![Print 3](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/3.png)
 
-![Print 4](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/4.png)
+![Print 4](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/4.png)
 
-![Print 5](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/5.png)
+![Print 5](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/5.png)
 
-![Print 6](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/6.png)
+![Print 6](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/6.png)
 
-![Print 7](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/7.png)
+![Print 7](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/7.png)
 
-![Game](https://raw.githubusercontent.com/fabiorvs/jogoBichoFivem/refs/heads/main/prints/game.gif)
+![Game](https://raw.githubusercontent.com/fabiorvs/JogoBichoVrp/refs/heads/main/prints/game.gif)
