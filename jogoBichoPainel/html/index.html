@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Painel do Dono</title>
+</head>
+<body>
+    <div id="painelContainer" style="display: none;">
+        <div>
+            <h1>Painel do Jogo do Bicho</h1>
+            <p>Saldo Total: <span id="saldoTotal"></span></p>
+            <p>Saldo Disponível: <span id="saldoDisponivel"></span></p>
+        </div>
+
+        <div id="acoesPainel">
+            <input
+                type="text"
+                id="valorSaque"
+                placeholder="Valor para sacar"
+            />
+            <button id="sacarValor">Sacar</button>
+            <button id="fecharPainel">Fechar</button>
+        </div>
+    
+        <div>
+            <h2>Histórico de Apostas</h2>
+            <table id="historicoApostas">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Bicho</th>
+                        <th>Valor</th>
+                        <th>Prêmios</th>
+                        <th>Resultado</th>
+                        <th>Ganhos</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    
+        <div>
+            <h2>Extrato de Transações</h2>
+            <table id="extratoTransacoes">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Valor</th>
+                        <th>Descrição</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mask.js"></script>
+    <script src="js/sweetalert2.all.min.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

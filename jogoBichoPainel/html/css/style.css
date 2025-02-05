@@ -1,0 +1,135 @@
+/* --------------------------- */
+/* Variáveis de Cores e Fonte */
+/* --------------------------- */
+:root {
+    --primary-color: #2c58f9;
+    --secondary-color: #333;
+    --button-hover-color: #4971ff;
+    --selected-color: #ffa500;
+    --text-color: #fff;
+    --text-primary: #FFFFFF;
+    --text-secondary: #8F8F9B;
+    --panel-bg: #1f1f2c;
+    --item-bg: #343435;
+    --hover-bg: #1A1A23;
+    --border-color: rgba(79, 110, 247, 0.2);
+    --font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#painelContainer {
+    background: var(--panel-bg);
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    max-width: 1000px; /* Aumentada de 800px para 1000px */
+    width: 95%; /* Ajuste para ocupar mais espaço em telas menores */
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+    color: var(--text-primary); /* Texto com contraste suave */
+}
+p {
+    color: var(--text-primary);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: var(--panel-bg);
+    color: white;
+    position: sticky;
+    top: 0; /* Mantém o cabeçalho fixo ao rolar */
+    z-index: 2;
+}
+
+table tbody {
+    background-color: var(--secondary-color);
+    display: block;
+    max-height: 200px; /* Limita a altura da tabela com rolagem */
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: white;
+}
+
+table thead, table tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#fecharPainel {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fecharPainel:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Personalizando a barra de rolagem */
+table tbody::-webkit-scrollbar {
+    width: 8px;
+}
+
+table tbody::-webkit-scrollbar-thumb {
+    background-color: var(--panel-bg);
+    border-radius: 5px;
+}
+
+table tbody::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+#acoesPainel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#valorSaque {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#sacarValor {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sacarValor:hover {
+    background-color: var(--button-hover-color);
+}
